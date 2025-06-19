@@ -73,7 +73,7 @@ The SDK can be configured to use a different environment for making API calls. A
 | Name | Description |
 |  --- | --- |
 | Production | **Default** |
-| Staging | - |
+| Mock | - |
 
 ## Authorization
 

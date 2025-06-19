@@ -34,5 +34,5 @@ export interface Configuration {
 /** Environments available for API */
 export enum Environment {
   Production = 'Production',
-  Staging = 'Staging',
+  Mock = 'Mock',
 }

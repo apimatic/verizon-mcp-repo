@@ -109,12 +109,12 @@ function getBaseUri(
       return 'https://thingspace.verizon.com/api';
     }
   }
-  if (config.environment === Environment.Staging) {
+  if (config.environment === Environment.Mock) {
     if (server === 'OAuth Server') {
-      return 'https://staging.thingspace.verizon.com/api/ts/v1';
+      return 'https://mock.thingspace.verizon.com/api/ts/v1';
     }
     if (server === 'Thingspace') {
-      return 'https://staging.thingspace.verizon.com/api';
+      return 'https://mock.thingspace.verizon.com/api';
     }
   }
   throw new Error('Could not get Base URL. Invalid environment or server.');
