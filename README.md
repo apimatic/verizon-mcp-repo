@@ -4,13 +4,7 @@
 
 1. Install Node.js version 22 or greater. Check version with `node --version`.
 2. Open the command line in the current directory.
-3. Run these commands in order:
-```bash
-cd ../sdk
-npm install
-cd ../server
-npm install
-```
+3. Run `npm install`.
 
 ## How to Run
 

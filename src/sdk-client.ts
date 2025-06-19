@@ -21,7 +21,7 @@ import {
   SessionManagementController,
   SMSController,
   type Configuration,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 
 export const sdkClient = new Client(createConfigurationFromEnvironment());
 

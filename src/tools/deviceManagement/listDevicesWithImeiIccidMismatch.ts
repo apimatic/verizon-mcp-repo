@@ -11,7 +11,7 @@ import {
   deviceMismatchListResultSchema,
   type DeviceMismatchListResult,
   type DeviceMismatchListRequest,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { deviceManagementController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

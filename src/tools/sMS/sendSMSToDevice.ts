@@ -11,7 +11,7 @@ import {
   sMSSendRequestSchema,
   type DeviceManagementResult,
   type SMSSendRequest,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { sMSController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

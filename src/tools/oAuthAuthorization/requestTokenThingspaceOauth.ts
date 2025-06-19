@@ -6,10 +6,7 @@
 
 import { object, optional, string, validateAndMap } from '@apimatic/schema';
 import { type CallToolResult } from '@modelcontextprotocol/sdk/types.js';
-import {
-  oAuthTokenSchema,
-  type OAuthToken,
-} from 'thingspace-connectivity-management-apilib';
+import { oAuthTokenSchema, type OAuthToken } from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { oAuthAuthorizationController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

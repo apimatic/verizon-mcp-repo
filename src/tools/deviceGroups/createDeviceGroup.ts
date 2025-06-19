@@ -11,7 +11,7 @@ import {
   createDeviceGroupRequestSchema,
   type ConnectivityManagementSuccessResult,
   type CreateDeviceGroupRequest,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { deviceGroupsController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

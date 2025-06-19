@@ -6,10 +6,7 @@
 
 import { object, string, validateAndMap } from '@apimatic/schema';
 import { type CallToolResult } from '@modelcontextprotocol/sdk/types.js';
-import {
-  servicePlanSchema,
-  type ServicePlan,
-} from 'thingspace-connectivity-management-apilib';
+import { servicePlanSchema, type ServicePlan } from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { servicePlansController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

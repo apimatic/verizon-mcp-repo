@@ -11,7 +11,7 @@ import {
   setFallbackAttributeRequestSchema,
   type RequestResponse,
   type SetFallbackAttributeRequest,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { deviceProfileManagementController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

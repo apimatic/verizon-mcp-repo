@@ -9,7 +9,7 @@ import { type CallToolResult } from '@modelcontextprotocol/sdk/types.js';
 import {
   accountStatesAndServicesSchema,
   type AccountStatesAndServices,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { accountsController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

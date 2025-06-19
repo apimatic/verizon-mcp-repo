@@ -5,7 +5,7 @@
  */
 
 import { type CallToolResult } from '@modelcontextprotocol/sdk/types.js';
-import { ApiError } from 'thingspace-connectivity-management-apilib';
+import { ApiError } from 'sdksio-verizon-apis-sdk';
 
 export function stringifyRawJson(object: unknown): string {
   return JSON.stringify(object, (_, value: unknown) => {

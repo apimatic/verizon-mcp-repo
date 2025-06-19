@@ -6,10 +6,7 @@
 
 import { object, string, validateAndMap } from '@apimatic/schema';
 import { type CallToolResult } from '@modelcontextprotocol/sdk/types.js';
-import {
-  deviceGroupSchema,
-  type DeviceGroup,
-} from 'thingspace-connectivity-management-apilib';
+import { deviceGroupSchema, type DeviceGroup } from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { deviceGroupsController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

@@ -11,7 +11,7 @@ import {
   stopMonitorRequestSchema,
   type RequestResponse,
   type StopMonitorRequest,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { deviceMonitoringController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';

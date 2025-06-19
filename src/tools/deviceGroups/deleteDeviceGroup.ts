@@ -9,7 +9,7 @@ import { type CallToolResult } from '@modelcontextprotocol/sdk/types.js';
 import {
   connectivityManagementSuccessResultSchema,
   type ConnectivityManagementSuccessResult,
-} from 'thingspace-connectivity-management-apilib';
+} from 'sdksio-verizon-apis-sdk';
 import { schemas } from '../../schema.js';
 import { deviceGroupsController } from '../../sdk-client.js';
 import { createErrorMessage, stringifyRawJson } from '../../utils.js';
