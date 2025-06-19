@@ -18,7 +18,7 @@ export type SdkRequestBuilderFactory = RequestBuilderFactory<
 
 export type SdkRequestBuilder = ReturnType<SdkRequestBuilderFactory>;
 
-export type Server = 'OAuth Server' | 'Thingspace';
+export type Server = 'Thingspace';
 
 export type AuthParams = ReturnType<
   typeof createAuthProviderFromConfig

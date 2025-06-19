@@ -98,21 +98,15 @@ function createHttpClientAdapter(client: HttpClient): HttpClientInterface {
 }
 
 function getBaseUri(
-  server: Server = 'OAuth Server',
+  server: Server = 'Thingspace',
   config: Configuration
 ): string {
   if (config.environment === Environment.Production) {
-    if (server === 'OAuth Server') {
-      return 'https://thingspace.verizon.com/api/ts/v1';
-    }
     if (server === 'Thingspace') {
       return 'https://thingspace.verizon.com/api';
     }
   }
   if (config.environment === Environment.Mock) {
-    if (server === 'OAuth Server') {
-      return 'https://mock.thingspace.verizon.com/api/ts/v1';
-    }
     if (server === 'Thingspace') {
       return 'https://mock.thingspace.verizon.com/api';
     }
